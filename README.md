@@ -48,6 +48,10 @@ export SPOTIPY_CLIENT_ID=your_spotify_client_id
 export SPOTIPY_CLIENT_SECRET=your_spotify_secret_id
 export SPOTIPY_REDIRECT_URI=your_spotify_redirect_uri
 ```
+* Move the authentication token to the spotipi repository
+```
+mv .cache-ryanwa18 spotipi/
+```
 * Make sure to set the resource limit for root user
 ```
 sudo su
